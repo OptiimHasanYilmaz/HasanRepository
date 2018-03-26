@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportEntity>
+   <description></description>
+   <name>20180322_161715</name>
+   <tag></tag>
+   <displayName>20180322_161715</displayName>
+   <reportTestCases>
+      <testCaseId>Test Cases/Login/LoginTC</testCaseId>
+      <testCaseName>LoginTC</testCaseName>
+      <videoLocation></videoLocation>
+   </reportTestCases>
+   <reportTestCases>
+      <testCaseId>Test Cases/LogOut/LogOutTC</testCaseId>
+      <testCaseName>LogOutTC</testCaseName>
+      <videoLocation></videoLocation>
+   </reportTestCases>
+</ReportEntity>

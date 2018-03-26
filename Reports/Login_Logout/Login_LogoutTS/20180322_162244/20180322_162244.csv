@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login_LogoutTS,Chrome 64.0.3282.167,,2018-03-22 16:22:50,2018-03-22 16:23:20,"30,116s",FAILED
+,,,,,,
+Test Cases/Login/LoginTC,Chrome 64.0.3282.167,,2018-03-22 16:22:50,2018-03-22 16:23:19,"28,381s",FAILED
+openBrowser,Chrome 64.0.3282.167,,2018-03-22 16:22:51,2018-03-22 16:22:55,"4,068s",PASSED
+maximizeWindow,Chrome 64.0.3282.167,,2018-03-22 16:22:55,2018-03-22 16:22:56,"1,193s",PASSED
+navigateToUrl,Chrome 64.0.3282.167,,2018-03-22 16:22:56,2018-03-22 16:23:19,"22,468s",PASSED
+click,Chrome 64.0.3282.167,,2018-03-22 16:23:19,2018-03-22 16:23:19,"0,136s",FAILED
+,,,,,,
+Test Cases/LogOut/LogOutTC,Chrome 64.0.3282.167,,2018-03-22 16:23:19,2018-03-22 16:23:19,"0,504s",FAILED
+click,Chrome 64.0.3282.167,,2018-03-22 16:23:19,2018-03-22 16:23:19,"0,047s",FAILED

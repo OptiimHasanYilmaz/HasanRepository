@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_LogoutTS" time="23" tests="2" failures="0" errors="0">
+   <testsuite name="Login_LogoutTS" tests="2" failures="0" errors="0" time="23" timestamp="2018-03-22 16:08:57" hostname="Optiim - DESKTOP-LNT0AS2" id="">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Optiim\\Katalon Studio\\FloOtomasyonOrnegi\\Reports\\Login_Logout\\Login_LogoutTS\\20180322_160851"/>
+         <property name="logFiles" value="C:\\Users\\Optiim\\Katalon Studio\\FloOtomasyonOrnegi\\Reports\\Login_Logout\\Login_LogoutTS\\20180322_160851\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Optiim\\Katalon Studio\\FloOtomasyonOrnegi\\ScreenShots\\login.png"/>
+         <property name="hostName" value="Optiim - DESKTOP-LNT0AS2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 64.0.3282.167"/>
+         <property name="hostAddress" value="192.168.186.1"/>
+         <property name="sessionId" value="40a90231d221dca50ad9cea044cd9f81"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/LoginTC" classname="Test Cases/Login/LoginTC" status="PASSED">
+         <system-out><![CDATA[2018-03-22 16:08:58 - [TEST_CASE][PASSED] - Test Cases/Login/LoginTC: Test Cases/Login/LoginTC
+
+2018-03-22 16:08:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-22 16:09:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-22 16:09:02 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-03-22 16:09:03 - [MESSAGE][PASSED] - Current window maximized
+
+2018-03-22 16:09:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.flo.com.tr/' successfully
+
+2018-03-22 16:09:13 - [MESSAGE][PASSED] - Navigate to 'https://www.flo.com.tr/' successfully
+
+2018-03-22 16:09:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FLOHomePage/LinkUyeGirisi' is clicked on
+
+2018-03-22 16:09:16 - [MESSAGE][PASSED] - Object: 'Object Repository/FLOHomePage/LinkUyeGirisi' is clicked on
+
+2018-03-22 16:09:16 - [TEST_STEP][PASSED] - setText: Text 'merthan.arslan@optiim.com' is set on object 'Object Repository/LoginPage/TxtUsername'
+
+2018-03-22 16:09:16 - [MESSAGE][PASSED] - Text 'merthan.arslan@optiim.com' is set on object 'Object Repository/LoginPage/TxtUsername'
+
+2018-03-22 16:09:16 - [TEST_STEP][PASSED] - setText: Text '123123' is set on object 'Object Repository/LoginPage/TxtPassword'
+
+2018-03-22 16:09:16 - [MESSAGE][PASSED] - Text '123123' is set on object 'Object Repository/LoginPage/TxtPassword'
+
+2018-03-22 16:09:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginPage/BtnUyeGirisi' is clicked on
+
+2018-03-22 16:09:18 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/BtnUyeGirisi' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LogOut/LogOutTC" classname="Test Cases/LogOut/LogOutTC" status="PASSED">
+         <system-out><![CDATA[2018-03-22 16:09:18 - [TEST_CASE][PASSED] - Test Cases/LogOut/LogOutTC: Test Cases/LogOut/LogOutTC
+
+2018-03-22 16:09:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/FLOHomePage/BtnCikis' is clicked on
+
+2018-03-22 16:09:19 - [MESSAGE][PASSED] - Object: 'Object Repository/FLOHomePage/BtnCikis' is clicked on
+
+2018-03-22 16:09:19 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-03-22 16:09:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Optiim\\Katalon Studio\\FloOtomasyonOrnegi\\ScreenShots\\login.png]]
+
+2018-03-22 16:09:20 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2018-03-22 16:09:20 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-22 16:08:57 - [TEST_SUITE][PASSED] - Login_LogoutTS: Test Cases/LogOut/LogOutTC]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
