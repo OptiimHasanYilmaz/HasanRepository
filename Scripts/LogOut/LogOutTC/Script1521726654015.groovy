@@ -27,3 +27,7 @@ WebUI.takeScreenshot('C:\\Users\\Optiim\\Katalon Studio\\FloOtomasyonOrnegi\\Scr
 // screenshot dosyasına zaman eklenmeli ve dinamik yapılmalı Auth:Tuna
 not_run: WebUI.closeBrowser()
 
+WebUI.acceptAlert()
+
+WebUI.clickImage(findTestObject(null))
+
